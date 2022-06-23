@@ -7,4 +7,5 @@
 
 ## How to run
 - clone repo
-- enter console command `npm run dev`
+- replace "process.env.DATABASE_URL" in index.js to your DATABASE URL
+- enter console command `npm run start`
