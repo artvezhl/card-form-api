@@ -14,7 +14,7 @@ router.post('/post', (req, res) => {
     })
 
     try {
-        res.status(200).json({
+        res.status(201).json({
             "RequestId": data._id,
             "Amount": data.Amount
         });
